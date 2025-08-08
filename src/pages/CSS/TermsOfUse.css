@@ -1,0 +1,49 @@
+.terms-of-use {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.terms-of-use h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  color: #004080;
+  text-align: center;
+}
+
+.terms-of-use h2 {
+  font-size: 1.6rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+  color: #0059b3;
+  border-bottom: 2px solid #0059b3;
+  padding-bottom: 6px;
+}
+
+.terms-of-use p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+.terms-of-use a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.terms-of-use a:hover {
+  text-decoration: underline;
+}
+
+.terms-of-use em {
+  display: block;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}

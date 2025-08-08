@@ -1,0 +1,110 @@
+
+.contact-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f9fafc, #e2e8f0);
+  color: #1f2937;
+  -webkit-font-smoothing: antialiased;
+}
+
+.contact-container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+@media (hover: hover) {
+  .contact-card:hover {
+    transform: translateY(-4px);
+  }
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.contact-description {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (min-width: 480px) {
+  .contact-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+  color: #fff;
+  width: 100%;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.contact-btn.whatsapp {
+  background-color: #25d366;
+}
+
+.contact-btn.whatsapp:hover {
+  background-color: #1ebc59;
+}
+
+.contact-btn.email {
+  background-color: #3b82f6;
+}
+
+.contact-btn.email:hover {
+  background-color: #2563eb;
+}
+@media (max-width: 430px) {
+  .contact-card {
+    padding: 24px 16px;
+  }
+
+  .contact-title {
+    font-size: 1.6rem;
+  }
+
+  .contact-description {
+    font-size: 0.95rem;
+  }
+
+  .contact-btn {
+    font-size: 0.9rem;
+    padding: 12px 18px;
+  }
+}

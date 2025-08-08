@@ -1,0 +1,85 @@
+  .img-logo {
+  margin: 0;
+  width: 12rem;
+  position: relative;
+  top: 15px;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.8rem;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+  right: 40%;
+  flex-wrap: wrap;
+}
+
+.cta-buttons span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cta-buttons span:hover {
+  color: #2063cf;
+}
+
+.cta-button-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.cta-button-contact:hover {
+  color: #2063cf;
+}
+
+@media (max-width: 430px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .img-logo {
+    width: 9rem;
+    top: 0;
+  }
+
+  .cta-buttons {
+    right: 0;
+    margin-top: 1rem;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .cta-buttons span {
+    font-size: 0.85rem;
+  }
+
+  .cta-button-contact {
+    font-size: 0.85rem;
+  }
+}
