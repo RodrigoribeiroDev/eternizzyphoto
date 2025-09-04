@@ -2,7 +2,7 @@ import { FaWhatsapp, FaBriefcase } from 'react-icons/fa';
 import '../pages/CSS/TrabalheConosco.css';
 
 const TrabalheConosco = () => {
-  const whatsappNumber = '5583991639040';
+  const whatsappNumber = '558191475789';
   const whatsappMessage = 'Olá! Gostaria de saber sobre vagas na Eternizzy.';
   const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
   const vagasURL = 'https://eternizzyphotography.vagas.solides.com.br/';

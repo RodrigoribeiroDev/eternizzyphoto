@@ -2,7 +2,7 @@ import { FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 import '../pages/CSS/Contact.css'; 
 
 const Contact = () => {
-  const whatsappNumber = '5583991639040'
+  const whatsappNumber = '558191475789'
   const whatsappMessage = 'Olá! Gostaria de mais informações.';
   const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
